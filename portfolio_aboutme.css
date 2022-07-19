@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code&family=Kanit:wght@500;600;700&family=Ubuntu+Mono&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#aboutme
+{
+    /* border:2px solid white; */
+    margin-left:200px;
+    margin-top:130px;
+}
+
+.aboutmewithline
+{
+    /* border:2px solid white; */
+    display:flex;
+    flex-direction: row;
+}
+
+.aboutmeline
+{
+    /* border:2px solid white; */
+    font-size:28px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    color: rgb(182, 191, 214);
+}
+
+.line
+{
+    /* border:2px solid white; */
+    border-radius: 3px;
+    opacity: 30%;
+    color: rgb(85, 84, 84);
+    width:28%;
+    margin-left:15px;
+    height:0%;
+    margin-top:20px;
+}
+
+.contentphoto
+{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+}
+
+.content
+{
+    font-size:20px;
+    color:rgb(125,135,164);
+    line-height: 30px;
+}
+
+.photo img
+{
+    margin-top:10px;
+    margin-left:50px;
+    height:280px;
+    width:280px;
+    border-radius:5px;
+    box-shadow: 10px 10px rgb(83,211,185);
+}
+
+.photo img:hover
+{
+    opacity: 80%;
+    box-shadow: 15px 15px rgb(83,211,185);
+}
+
+.emptyspace
+{
+    height:50px;
+}

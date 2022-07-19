@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code&family=Kanit:wght@500;600;700&family=Ubuntu+Mono&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    /* font-family: 'Gulzar', serif; */
+    /* font-family: 'Fira Code', monospace; */
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body{
+    background-color: rgb(10,25,47); 
+}
+
+.navbar
+{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14.9px;
+    position: sticky;  /*might remove*/
+    top:0px;           /*might remove*/ 
+}
+
+.navbar img
+{
+    position: sticky;  /*might remove*/
+    top:0px;
+    height:60px;
+    width:60px;
+    margin-left: 60px;
+    margin-right:520px;
+    margin-top:13px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: rgb(182, 191, 214);
+    padding-right: 28px;
+}
+
+.navbar a:hover
+{
+    color:rgb(83,211,185);
+}
+
+.navnum
+{
+    color:rgb(83,211,185);
+}
+
+#resume
+{
+    width:80px;
+    height:40px;
+    border:1px solid rgb(83,211,185);
+    color:rgb(83,211,185);
+    background-color: rgb(10,25,47); 
+    border-radius:3px;
+    padding:2px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+#resume:hover
+{
+    background-color: rgba(83, 211, 185, 0.2);
+}
+
+.leftcontainer
+{
+    position: fixed;
+    /* border:2px solid white; */
+    display:flex;
+    flex-direction: column;
+    margin-top:80px;
+    margin-left: 70px;
+    width:50px;
+    padding:2px;
+}
+.leftcontainer a
+{
+    color:rgb(83,211,185);
+    text-decoration: none;
+    font-size: 26px;
+    padding-bottom: 18px;
+}
+.leftcontainer a:hover
+{
+    transform: scale(1.5);
+}
+
+.middlecontainer
+{
+    /* border: 2px solid red; */
+    display:flex;
+    flex-direction: column;
+    margin-left:200px;
+    /* margin-top:10px; */
+    color:rgb(204,214,246);
+    /* font-family: 'Bebas Neue', cursive; */
+}
+
+.harsh
+{
+    height:100px;
+    /* border:2px solid plum; */
+    font-family: 'Kanit', sans-serif;
+    font-size: 85px;
+    font-weight: 600;
+
+}
+.aspiring
+{
+    /* border:2px solid white; */
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 83px;
+    color:rgb(136,146,176);
+}
+
+.briefintro
+{
+    margin-top:35px;
+    font-size:20px;
+    color:rgb(125,135,164);
+    line-height: 30px;
+}
+
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
